@@ -1,0 +1,35 @@
+{
+    "name": "roeurnz/telegram-bot",
+    "description": "A PHP library for interacting with the official Telegram Bot API",
+    "keywords": [
+        "telegram bot php",
+        "telegram",
+        "bot",
+        "php",
+        "psr-4"
+    ],
+    "homepage": "https://github.com/ROEURNZ/Telegram-Bot",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ROEURNZ",
+            "email": "roeurnkaki@gmail.com",
+            "homepage": "https://roeuenz.ir",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^8.2",
+        "ext-curl": "*",
+        "ext-json": "*",
+        "ext-mbstring": "*",
+        "ext-openssl": "*",
+        "guzzlehttp/guzzle": "^7.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "TelegramBotPHP\\": "src/"
+        }
+    }
+}
